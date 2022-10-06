@@ -1,0 +1,14 @@
+.btn{
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+
+.btn:hover{
+    background-color: #34c3eb;
+    color: #fff;
+    box-shadow: 5px 3px 3px black;
+}
+.btn:not(:last-child){
+    margin-right: 20px;
+}
+
